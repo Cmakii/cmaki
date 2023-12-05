@@ -16,8 +16,8 @@ else:
 codec_video = '-c:v rawvideo' # O codec é rawvideo para não aplicar compressão
 pix_fmt = '-pix_fmt yuv420p'
 
-caminho_origem = "/home/pc-einsten-luis/Downloads/Vídeos yuv/176x144"
-caminho_destino = "/home/pc-einsten-luis/Downloads/Vídeos yuv/176x144/Conversões"
+caminho_origem = ""
+caminho_destino = ""
 
 extensao_saida = input("Escolha a extensão de saída (.avi ou .mkv): ").lower() # Escolhe entre .avi e .mkv
 
