@@ -11,8 +11,8 @@ else:
 codec_video = '-c:v rawvideo'
 pix_fmt = '-pix_fmt yuv420p'
 
-caminho_origem = "/home/pc-einsten-luis/Downloads/Vídeos y4m"
-caminho_destino = "/home/pc-einsten-luis/Downloads/Vídeos y4m/Conversões"
+caminho_origem = ""
+caminho_destino = ""
 
 # Escolha entre .avi e .mkv
 extensao_saida = input("Escolha a extensão de saída (.avi ou .mkv): ").lower()
